@@ -12,7 +12,7 @@
 
 **Output:** I tested deploying the website on Heroku App to integrate the backend. While I was able to deploy it, I encountered an error because the Dynos were disabled. I discovered that using Dynos incurs a cost of $0.10 per hour. However, I am looking for a completely free hosting platform since this project is solely for my portfolio. As I am currently focusing on frontend development, I will set aside the backend for now and concentrate on building the frontend from scratch.
 
-**Decision:** Use Github Pages.
+**Decision:** Use Github Pages. It's free and easy to setup. Applicable for static website.
 
 **Task Duration:** 20 mins.
 
