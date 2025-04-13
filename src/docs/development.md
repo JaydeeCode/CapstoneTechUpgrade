@@ -57,6 +57,8 @@
 
 **Description:** After adding `login-04` component from Task 3, I noticed that the login form UI is not displaying properly. I need to figure out what causing this problem.
 
+**Output:**
+
 ---
 
 ## Additional Resources
