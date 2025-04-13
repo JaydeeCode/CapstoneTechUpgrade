@@ -2,6 +2,10 @@
 
 **Description:** This document tracks the daily progress of the project, focusing on the development process, learning experiences, and troubleshooting. It includes detailed notes on implementation steps, challenges encountered, and solutions found.
 
+**Definitions:**
+
+- **Project** - Disaster Mapping System: This is the system we developed during our Capstone Project 2. It is a full-stack web application designed for offline use. I will be rebuilding this project with a focus on the frontend.
+
 ## Development Logs
 
 ### April 11, 2025
@@ -16,9 +20,44 @@
 
 **Task Duration:** 20 mins.
 
+---
+
 ### April 12, 2025
 
-[Add your next log entries here...]
+**Task 2. Identify technologies to use for rebuilding my project**
+
+**Description:** I have experience building static websites using HTML, CSS, JavaScript, and React (installed via Vite). However, I'm eager to explore other modern technologies to further enhance my skills while reworking this project.
+
+**Output:** I watched a TikTok live session featuring an experienced coder who uses Shadcn components to speed up his development process. After reviewing the Shadcn documentation, I found a wide range of UI components available for this project. The documentation is clear and offers various options for installation and usage. I noticed that the default installation includes TypeScript. Since I am familiar with TypeScript and many developers in the JavaScript ecosystem (based on social media platforms like Reddit, Facebook, and TikTok) recommend using it, I will give it a try.
+
+**Decision:**
+
+- Languages: HTML5, CSS3, JavaScript (ES6+), TypeScript
+- Technologies: React.js, Tailwind CSS, Vite, npm, Git, GitHub
+
+**Task Duration:** 26 mins.
+
+---
+
+**Task 3. Install and Configure Shadcn/UI for Vite**
+
+**Description:** The Shadcn installation documentation provides a project creation template for React + TypeScript and Tailwind CSS. Follow the installation guide available at https://ui.shadcn.com/docs/installation/vite.
+
+**Output:** A project template featuring React, TypeScript, and Tailwind CSS, along with a successful installation of Shadcn and the addition of the `login-04` component as the initial component.
+
+**Decision:** Given my successful utilization of Shadcn, I am confident in my ability to work effectively on this project.
+
+**Task Duration:** 30 mins.
+
+---
+
+### April 13, 2025
+
+**Task 4. Fix `login-04` design**
+
+**Description:** After adding `login-04` component from Task 3, I noticed that the login form UI is not displaying properly. I need to figure out what causing this problem.
+
+---
 
 ## Additional Resources
 
