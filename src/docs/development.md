@@ -59,6 +59,10 @@
 
 **Output:**
 
+**Decision:**
+
+**Task Duration:** 1 hour 17 mins. + [Add new duration]
+
 ---
 
 ## Additional Resources
