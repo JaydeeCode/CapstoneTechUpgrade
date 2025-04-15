@@ -55,13 +55,38 @@
 
 **Task 4. Fix `login-04` design**
 
-**Description:** After adding `login-04` component from Task 3, I noticed that the login form UI is not displaying properly. I need to figure out what causing this problem.
+**Description:** After adding the `login-04` component from Task 3, I noticed that the login form UI is not displaying properly. I need to figure out what is causing this problem.
 
 **Output:**
 
+**First Problem:** I didn't put a parent container for the `login-04`. Without a parent container, the login form may not have defined width and height, leading to unpredictable layout behavior and potential overflow issues. At first, I thought I just needed to paste Shadcn components and it would be all good. However, I learned that it's basic knowledge to put a container. Shadcn assumes users have this fundamental understanding of CSS.
+
+**Second Problem:** The login form container is not occupying the whole screen (see screenshot below).
+
+![alt text](assets/login-form-display-bugfix-1.png)
+
+This is because the height of the container is set to automatic `min-h-auto`, and the width is fixed at `max-width: 1280px;`, with a padding of `padding: 2rem;` in `App.css`. I was curious why Shadcn added a fixed max width in `App.css` for `#root`, and I learned that it's a consideration for larger screens because it helps maintain a consistent layout and prevents content from stretching too wide, which can negatively impact readability.
+
 **Decision:**
 
-**Task Duration:** 1 hour 17 mins. + [Add new duration]
+**First Problem:** What I did was check the entire code of `login-04` provided in the Shadcn documentation. I learned that there are two divs needed: one parent container and a child container, and then inside it, I would place the `login-04`. This structure is necessary from Shadcn's perspective to ensure proper styling and layout management, allowing for better responsiveness and alignment of the components. After implementing this change, I saw an improvement in the design, specifically in the responsiveness of the login form.
+
+**Second Problem:** I commented out the code below from `App.css` to avoid confusion with CSS that might override my Tailwind design in `App.tsx`:
+
+```
+/* #root {
+max-width: 1280px;
+margin: 0 auto;
+padding: 2rem;
+text-align: center;
+} */
+```
+
+After that, I fixed the height and width of the parent div container by changing it to `min-h-screen` and `w-full`, which resolved the problem by ensuring the container takes up the full height and width of the viewport. Additionally, I added `box-border` to include padding and border in the element's total width and height calculations, preventing layout shifts. Below is the fixed `login-04` display.
+
+![alt text](assets/login-form-display-bugfix-2.png)
+
+**Task Duration:** 3 hours and 2 minutes
 
 ---
 
