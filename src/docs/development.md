@@ -90,6 +90,28 @@ After that, I fixed the height and width of the parent div container by changing
 
 ---
 
+### April 17, 2025
+
+**Task 5. Update and Customize Login Form**
+
+**Description:** Modify the existing login form sourced from Shadcn (see task 4) by updating the default text, colors, fonts, and other visual components to maintain consistency with the original project design. Ensure that the updated form aligns with modern design standards while preserving the core aesthetic of the initial implementation.
+
+**Output:**
+
+Color theme: https://colorhunt.co/palette/3a59d13d90d77ac6d2b5fccd
+
+#3A59D1 - rgb(58, 89, 209) - Primary Color (40%)
+#3D90D7 - rgb(61, 144, 215) - Secondary Color (30%)
+#7AC6D2 - rgb(122, 198, 210) - Accent Color (20%)
+#B5FCCD - rgb(181, 252, 205) - Background Color (10%)
+
+What I did:
+
+- Understand color theming in Shadcn. (1 hour 14 mins). I learned that CSS variables are used in theming. Also, I learned how easy it is to apply dark mode because Shadcn already provided a documentation of it.
+-
+
+**Task Duration:**
+
 ## Additional Resources
 
 [Optional: Links to relevant resources.]
