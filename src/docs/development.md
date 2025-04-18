@@ -92,25 +92,34 @@ After that, I fixed the height and width of the parent div container by changing
 
 ### April 17, 2025
 
-**Task 5. Update and Customize Login Form**
+**Task 5: Update and Customize Login Form**
 
-**Description:** Modify the existing login form sourced from Shadcn (see task 4) by updating the default text, colors, fonts, and other visual components to maintain consistency with the original project design. Ensure that the updated form aligns with modern design standards while preserving the core aesthetic of the initial implementation.
+**Description**  
+Modify the existing login form sourced from Shadcn (refer to Task 4) by updating the default text, colors, fonts, and other visual components. The goal is to ensure consistency with the original project design while aligning with modern design standards. It is essential to preserve the core aesthetic of the initial implementation.
 
-**Output:**
+**What I Did**
 
-Color theme: https://colorhunt.co/palette/3a59d13d90d77ac6d2b5fccd
+- **Understanding Color Theming in Shadcn** (1 hour 14 mins):
+  - Explored the use of CSS variables for theming and discovered the ease of implementing dark mode, thanks to the comprehensive documentation provided by Shadcn.
+- **Researching Do's and Don'ts with Shadcn** (38 mins):
+  - Learned the importance of not modifying node modules to avoid issues with future updates from Shadcn. Emphasized the need to customize only the provided components and to always refer to the documentation.
+- **Updating the Login Form** (1 hour 53 mins):
+  - Updated the default text, added the Dismap logo and background image where applicable, and removed unnecessary default code from the Shadcn login-04 component.
+- **Documenting Changes** (8 mins):
+  - Recorded all modifications made to the login form for future reference.
 
-#3A59D1 - rgb(58, 89, 209) - Primary Color (40%)
-#3D90D7 - rgb(61, 144, 215) - Secondary Color (30%)
-#7AC6D2 - rgb(122, 198, 210) - Accent Color (20%)
-#B5FCCD - rgb(181, 252, 205) - Background Color (10%)
+**Initial Design**  
+![Initial Login Page Design](/src/docs/assets/initial-login-page-design.png)
 
-What I did:
+**New Design**  
+![New Login Page Design](/src/docs/assets/new-login-page-design.png)
 
-- Understand color theming in Shadcn. (1 hour 14 mins). I learned that CSS variables are used in theming. Also, I learned how easy it is to apply dark mode because Shadcn already provided a documentation of it.
--
+**Decision**  
+The new design enhances the visual hierarchy by prioritizing the login form while using the map image on the right as a subtle background element. This thematic introduction to the application's mapping system improves focus and reduces visual clutter, in contrast to the initial design, which featured a prominent and distracting seal.
 
-**Task Duration:**
+**Task Duration**
+
+- **Total Duration:** 3 hours 53 minutes
 
 ## Additional Resources
 
